@@ -42,6 +42,8 @@ Configura tu VM en Google Cloud con las siguientes características recomendadas
    ```bash
    ssh -i clave usuario@IP
 
+---
+
 ## 3 Transferencia de archivos SFTP
 
 1. Conectate al servidor por medio de SFTP
@@ -63,10 +65,12 @@ Configura tu VM en Google Cloud con las siguientes características recomendadas
    get path_server path_local
    get /home/usuario/sftp_archivos/archivo01.txt C:\PruebasDev\Archivos
 
-6. Descargar carpetas completas desde server a local
+5. Descargar carpetas completas desde server a local
    ```bash
    get -r path_server path_local
    get -r /home/usuario/sftp_archivos/varios C:\PruebasDev\Archivos
+
+---
 
 ## 4 Copia de Archivos entre Servidores con SCP
 
