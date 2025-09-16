@@ -34,11 +34,13 @@ Configura tu VM en Google Cloud con las siguientes características recomendadas
 1. Genera un par de claves SSH en tu equipo local:  
    ```bash
    ssh-keygen -t rsa -b 4096 -f C:\ruta\a\tu\carpeta\mi_clave -C "tu-usuario-de-gcloud"
+
 2. Si deseas utilizar por defecto C:\\.ssh
    ```bash
    ssh-keygen -t rsa -b 4096 -C "tu-usuario-de-gcloud"
 
-3. Realizamos la conexión
+3. En nuestra maquina virtual añadimos nuestra clave publica  
+4. Realizamos la conexión
    ```bash
    ssh -i clave usuario@IP
 
