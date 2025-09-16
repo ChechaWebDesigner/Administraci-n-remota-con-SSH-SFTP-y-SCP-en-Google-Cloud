@@ -56,7 +56,7 @@ Configura tu VM en Google Cloud con las siguientes características recomendadas
 3. Subir carpeta completa
     ```bash
     put -r path_local path_server
-    put -r C:\PruebasDev\Archivos\CarpetaSftp /home/usuario/sftp_archivos
+    put -r C:\PruebasDev\Archivos\Ejemplos /home/usuario/sftp_archivos
 
 4. Descargar archivo desde Server a local
    ```bash
@@ -66,7 +66,7 @@ Configura tu VM en Google Cloud con las siguientes características recomendadas
 6. Descargar carpetas completas desde server a local
    ```bash
    get -r path_server path_local
-   get -r /home/usuario/sftp_archivos/ejemplos C:\PruebasDev\Archivos
+   get -r /home/usuario/sftp_archivos/varios C:\PruebasDev\Archivos
 
 ## 4 Copia de Archivos entre Servidores con SCP
 
