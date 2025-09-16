@@ -51,7 +51,7 @@ Configura tu VM en Google Cloud con las siguientes características recomendadas
 2. Subir archivos desde mi PC al server
     ```bash
     put path_local path_server
-    put C:\PruebasDev\Archivos\ejemplo.txt /home/usuario/sftp_archivos
+    put C:\PruebasDev\Archivos\ejemplo01.txt /home/usuario/sftp_archivos
 
 3. Subir carpeta completa
     ```bash
@@ -61,7 +61,7 @@ Configura tu VM en Google Cloud con las siguientes características recomendadas
 4. Descargar archivo desde Server a local
    ```bash
    get path_server path_local
-   get /home/usuario/sftp_archivos/archivo_server.txt C:\PruebasDev\Archivos
+   get /home/usuario/sftp_archivos/archivo01.txt C:\PruebasDev\Archivos
 
 6. Descargar carpetas completas desde server a local
    ```bash
@@ -96,5 +96,5 @@ Configura tu VM en Google Cloud con las siguientes características recomendadas
 
 6. Copiar archivos con SCP
 Ejemplo de transferencia de archivo desde el servidor origen al destino:
-  ```bash
-  scp /home/usuario/archivo.txt usuario@34.27.94.40:/home/usuario/archivo.txt
+     ```bash
+     scp /home/usuario/archivo.txt usuario@34.27.94.40:/home/usuario/archivo.txt
